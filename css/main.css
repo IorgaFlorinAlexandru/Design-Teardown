@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-nav ul{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#C7C6C1;
+    border-bottom: 1px solid black;
+}
+
+.top-nav li{
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+#logo{
+    width: 200px;
+    height: 50px;
+    background-color: #6c6a71;
+}
+
+#more{
+    height: 35px;
+    background-color: #6c6a71;
+}
+
+#search{
+    background-color: #48494B;
+    width: 300px;
+    height: 60px;
+}
+
+.latest_articles{
+    background-color: #C7C6C1;
+    padding-top: 170px;
+    padding-bottom: 316px;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.article{
+    display: grid;
+    justify-content: center;
+}
+
+.article *{
+    border-radius: 10px;
+}
+
+.OriginalPoster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Author_image{
+    width: 60px;
+    height: 60px;
+    background-color: #48494B;
+    margin-right: 10px;
+}
+
+.Author_name{
+    width: 300px;
+    height: 30px;
+    background-color:#48494B;
+}
+
+#article_p{
+    height: 30px;
+    width: 400px;
+    background-color: #777b7e;
+    margin-top: 20px;
+}
+
+.article_tags{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tag{
+    height: 20px;
+    width: 50px;
+    background-color: #aeacb2;
+}
+
+.more_articles{
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    background-color: #F2F3F4;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.morelike_article{
+    display: grid;
+    justify-content: center;
+}
+
+.morelike_article *{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#more_date{
+    height: 15px;
+    width: 40px;
+    background-color: #C7C6C1;
+}
+
+#more_title{
+    height: 25px;
+    width: 350px;
+    background-color: #48494B;
+}
+
+#more_author{
+    height: 15px;
+    width: 60px;
+    background-color: grey;
+}
+
+#more_context{
+    height: 15px;
+    width: 350px;
+    background-color: #777b7e;
+}
+
+#more_tag{
+    height: 15px;
+    width: 50px;
+    background-color: #C7C6C1;
+}
+
+.ad{
+    display: grid;
+    justify-content: center;
+}
+
+#ad_info{
+    height: 15px;
+    width: 200px;
+    background-color: #B9BBB6;
+    border-radius: 10px;
+}
+
+.ad_context{
+    width: 200px;
+    height: 300px;
+    background-color:#777b7e ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
